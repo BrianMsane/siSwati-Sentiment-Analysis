@@ -1,0 +1,120 @@
+The total number of words is: 11837
+The total number of unique words is: 5972
+
+
+INFO:root:The total time it took to train the SupportVectorMachines is 0.956118106842041
+INFO:root:Accuracy         : 0.5514511873350924
+INFO:root:F1 Score         : 0.5363006008809246
+INFO:root:Precision        : 0.5393446247944723
+INFO:root:Balanced Accuracy: 0.5186201802975997
+INFO:root:Recall           : 0.5514511873350924
+INFO:root:The total time it took to train the XGBoost is 14.171143293380737
+INFO:root:Accuracy         : 0.49340369393139843
+INFO:root:F1 Score         : 0.48505643910222374
+INFO:root:Precision        : 0.4921647959292898
+INFO:root:Balanced Accuracy: 0.46780666883892685
+INFO:root:Recall           : 0.49340369393139843
+INFO:root:The total time it took to train the NaiveBayes is 0.05965232849121094
+INFO:root:Accuracy         : 0.5224274406332454
+INFO:root:F1 Score         : 0.46893602716597177
+INFO:root:Precision        : 0.5647273348425895
+INFO:root:Balanced Accuracy: 0.466578907353101
+INFO:root:Recall           : 0.5224274406332454
+INFO:root:The total time it took to train the AdaBoost is 44.141318798065186
+INFO:root:Accuracy         : 0.49076517150395776
+INFO:root:F1 Score         : 0.4824327972845567
+INFO:root:Precision        : 0.5240857207225254
+INFO:root:Balanced Accuracy: 0.47704746388617353
+INFO:root:Recall           : 0.49076517150395776
+INFO:root:The total amount of time it took to train LSTM is 40.94740891456604
+INFO:root:Accuracy         : 0.40369393139841686
+INFO:root:F1 Score         : 0.3545873587016649
+INFO:root:Precision        : 0.42414773045314447
+INFO:root:Balanced Accuracy: 0.37776908873683074
+INFO:root:Recall           : 0.40369393139841686
+INFO:root:The total amount of time it took to train Bi-LSTM is 88.23714399337769
+INFO:root:Accuracy         : 0.43271767810026385
+INFO:root:F1 Score         : 0.31839532210435934
+INFO:root:Precision        : 0.33180808319193733
+INFO:root:Balanced Accuracy: 0.36301075268817207
+INFO:root:Recall           : 0.43271767810026385
+INFO:root:Epoch 1/10 completed with SERENGETI LLM average loss: 1.0847691011925538
+INFO:root:Epoch 2/10 completed with SERENGETI LLM average loss: 1.0742279614011447
+INFO:root:Epoch 3/10 completed with SERENGETI LLM average loss: 1.025328843543927
+INFO:root:Epoch 4/10 completed with SERENGETI LLM average loss: 0.8938581123948097
+INFO:root:Epoch 5/10 completed with SERENGETI LLM average loss: 0.7501085872451464
+INFO:root:Epoch 6/10 completed with SERENGETI LLM average loss: 0.5737992975239953
+INFO:root:Epoch 7/10 completed with SERENGETI LLM average loss: 0.4322165452564756
+INFO:root:Epoch 8/10 completed with SERENGETI LLM average loss: 0.3214588329816858
+INFO:root:Epoch 9/10 completed with SERENGETI LLM average loss: 0.25058069778606296
+INFO:root:Epoch 10/10 completed with SERENGETI LLM average loss: 0.21096143887067834
+INFO:root:The total amount of time it took to train the SERENGETI LLM is 15221.22511959076
+INFO:root:Accuracy         : 0.6094986807387863
+INFO:root:F1 Score         : 0.6133270798815801
+INFO:root:Precision        : 0.6181577446051121
+INFO:root:Balanced Accuracy: 0.5759905888395419
+INFO:root:Recall           : 0.6094986807387863
+
+
+INFO:root:Epoch 1/10 completed with mbert average loss: 1.0796433401604493
+INFO:root:Epoch 2/10 completed with mbert average loss: 1.0344457626342773
+INFO:root:Epoch 3/10 completed with mbert average loss: 0.9529308713972569
+INFO:root:Epoch 4/10 completed with mbert average loss: 0.8177863396704197
+INFO:root:Epoch 5/10 completed with mbert average loss: 0.7146376532812914
+INFO:root:Epoch 6/10 completed with mbert average loss: 0.6198347881436348
+INFO:root:Epoch 7/10 completed with mbert average loss: 0.5143553301071128
+INFO:root:Epoch 8/10 completed with mbert average loss: 0.4515531249344349
+INFO:root:Epoch 9/10 completed with mbert average loss: 0.3955515855923295
+INFO:root:Epoch 10/10 completed with mbert average loss: 0.35944726939002675
+INFO:root:The total amount of time it took to train the mbert is 12625.167221784592
+INFO:root:Accuracy         : 0.5408970976253298
+INFO:root:F1 Score         : 0.5473051766186705
+INFO:root:Precision        : 0.5621106685803166
+INFO:root:Balanced Accuracy: 0.5263002756584925
+INFO:root:Recall           : 0.5408970976253298
+WARNING:tensorflow:From C:\Users\DELL\Desktop\ssw\.venv\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+INFO:root:The best parameters are {'embedding_dim': 160, 'spatial_dropout': 0.30000000000000004, 'lstm_units': 200, 'lstm_dropout': 0.1, 'recurrent_dropout': 0.5, 'dense_units': 32, 'dropout': 0.30000000000000004, 'learning_rate': 0.00013583084987044396}
+INFO:root:Accuracy         : 0.43799472295514513
+INFO:root:F1 Score         : 0.3743089331997518
+INFO:root:Precision        : 0.37733151524698405
+INFO:root:Balanced Accuracy: 0.3881411969153905
+INFO:root:Recall           : 0.43799472295514513
+INFO:root:The best parameters are {'embedding_dim': 128, 'spatial_dropout': 0.30000000000000004, 'lstm_units': 200, 'lstm_dropout': 0.30000000000000004, 'recurrent_dropout': 0.2, 'dense_units': 32, 'dropout': 0.30000000000000004, 'learning_rate': 0.0004306536472482468}
+INFO:root:Accuracy         : 0.42480211081794195
+INFO:root:F1 Score         : 0.3453792527665145
+INFO:root:Precision        : 0.31311427794652935
+INFO:root:Balanced Accuracy: 0.3668817204301075
+INFO:root:Recall           : 0.42480211081794195
+INFO:root:The time it took to trained the best (tuned) XGBoost is 7.998571157455444
+INFO:root:These are the best scores for the tuned XGBoost model
+INFO:root:Accuracy         : 0.49604221635883905
+INFO:root:F1 Score         : 0.4831382185755233
+INFO:root:Precision        : 0.4973612450524071
+INFO:root:Balanced Accuracy: 0.46855653307266204
+INFO:root:Recall           : 0.49604221635883905
+INFO:root:XGBoost Best hyperparameters: OrderedDict([('learning_rate', 0.03252108800594495), ('max_depth', 18), ('n_estimators', 187), ('subsample', 0.9756119532966647)])
+INFO:root:The time it took to trained the best (tuned) AdaBoost is 13.188385009765625
+INFO:root:These are the best scores for the tuned AdaBoost model
+INFO:root:Accuracy         : 0.46437994722955145
+INFO:root:F1 Score         : 0.42164620622638876
+INFO:root:Precision        : 0.4545459052817821
+INFO:root:Balanced Accuracy: 0.41723905723905724
+INFO:root:Recall           : 0.46437994722955145
+INFO:root:AdaBoost Best hyperparameters: OrderedDict([('estimator__max_depth', 8), ('learning_rate', 0.002061045404501547), ('n_estimators', 287)])
+INFO:root:The time it took to trained the best (tuned) Naive Bayes is 0.0010001659393310547
+INFO:root:These are the best scores for the tuned Naive Bayes model
+INFO:root:Accuracy         : 0.5382585751978892
+INFO:root:F1 Score         : 0.5404707055027433
+INFO:root:Precision        : 0.543727826333111
+INFO:root:Balanced Accuracy: 0.5243818833496253
+INFO:root:Recall           : 0.5382585751978892
+INFO:root:Naive Bayes Best hyperparameters: OrderedDict([('alpha', 0.016994636371262764)])
+INFO:root:The time it took to trained the best (tuned) SVM is 0.18413949012756348
+INFO:root:These are the best scores for the tuned SVM model
+INFO:root:Accuracy         : 0.5382585751978892
+INFO:root:F1 Score         : 0.5309542097063438
+INFO:root:Precision        : 0.5316819174334317
+INFO:root:Balanced Accuracy: 0.5151297925491474
+INFO:root:Recall           : 0.5382585751978892
+INFO:root:SVM Best hyperparameters: OrderedDict([('C', 4.678860424711244), ('gamma', 'auto'), ('kernel', 'linear')])
