@@ -17,7 +17,7 @@ from tensorflow.keras.layers import Embedding, LSTM, Dense, Dropout,  SpatialDro
 from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau # type: ignore
 from keras_tuner import HyperModel, Objective # type: ignore
 from keras_tuner.tuners import RandomSearch # type: ignore
-from models import load_data, clean_data
+from models import load_data, clean_data, save_load_model
 from lstm import tokenize
 
 
@@ -107,7 +107,7 @@ def fit_bet_model(best_model, X_train, X_test, y_train, y_test):
 
 
 def run_tuning():
-    data = load_data("Siswati_Sentiment.csv")
+    data = load_data()
     data = clean_data(data)
     X = data['Comments']
     y = data['label']
@@ -120,4 +120,5 @@ def run_tuning():
     max_features, input_length = len(tokenizer.word_index) + 1, X_train.shape[1]
     tuner = my_tuner(max_features, input_length)
     best_model=tuner_search(tuner, X_train, X_test, y_train, y_test)
+    save_load_model("./weights/tuned_lstm.sav", model=best_model, save=True)
     fit_bet_model(best_model, X_train, X_test, y_train, y_test)

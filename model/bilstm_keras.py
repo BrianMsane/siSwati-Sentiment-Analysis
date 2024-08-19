@@ -16,7 +16,7 @@ from tensorflow.keras.models import Sequential # type: ignore
 from tensorflow.keras.layers import Embedding, LSTM, Dense, Dropout, SpatialDropout1D, Bidirectional # type: ignore
 from keras_tuner import HyperModel, Objective # type: ignore
 from keras_tuner.tuners import RandomSearch # type: ignore
-from models import load_data, clean_data
+from models import load_data, clean_data, save_load_model
 from lstm import tokenize
 
 
@@ -115,4 +115,5 @@ def run_tuning():
     max_features, input_length = len(tokenizer.word_index) + 1, X_train.shape[1]
     tuner = my_tuner(max_features, input_length)
     best_model=tuner_search(tuner, X_train, X_test, y_train, y_test)
+    save_load_model("./weights/tuned_bilstm.sav", model=best_model, save=True)
     fit_bet_model(best_model, X_train, X_test, y_train, y_test)

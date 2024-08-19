@@ -81,11 +81,11 @@ INFO:root:Precision        : 0.37733151524698405
 INFO:root:Balanced Accuracy: 0.3881411969153905
 INFO:root:Recall           : 0.43799472295514513
 INFO:root:The best parameters are {'embedding_dim': 128, 'spatial_dropout': 0.30000000000000004, 'lstm_units': 200, 'lstm_dropout': 0.30000000000000004, 'recurrent_dropout': 0.2, 'dense_units': 32, 'dropout': 0.30000000000000004, 'learning_rate': 0.0004306536472482468}
-INFO:root:Accuracy         : 0.42480211081794195
-INFO:root:F1 Score         : 0.3453792527665145
-INFO:root:Precision        : 0.31311427794652935
-INFO:root:Balanced Accuracy: 0.3668817204301075
-INFO:root:Recall           : 0.42480211081794195
+INFO:root:Accuracy         : 0.44063324538258575
+INFO:root:F1 Score         : 0.3572109755551957
+INFO:root:Precision        : 0.326929419525066
+INFO:root:Balanced Accuracy: 0.3797849462365592
+INFO:root:Recall           : 0.44063324538258575
 INFO:root:The time it took to trained the best (tuned) XGBoost is 7.998571157455444
 INFO:root:These are the best scores for the tuned XGBoost model
 INFO:root:Accuracy         : 0.49604221635883905
